@@ -1,0 +1,6 @@
+{
+  "name": "Ֆուտբոլային Դերանուններ՝ Գոռ և Գայանե",
+  "description": "Իսպաներենի ուղիղ և անուղղակի դերանունների ուսուցում (Pronombres de Objeto Directo e Indirecto) Գոռի և Գայանեի միջև ֆուտբոլային մրցույթով:",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fredoka", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #f0fdf4; /* Light green, fresh field feeling */
+    color: #1e293b;
+  }
+}
+
+/* Fun bounce pulse keyframes for interactive elements */
+@keyframes soccerBounce {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(15deg); }
+}
+
+.soccer-bounce {
+  animation: soccerBounce 2s infinite ease-in-out;
+}
+
